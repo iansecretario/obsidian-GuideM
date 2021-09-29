@@ -1,0 +1,66 @@
+/* Use as dark mode, Fonts are white. Created for personal & friends. Feel free to use.  */ 
+/* semi-v = semi vibrant will upload high contrast and darker*/ 
+/* variants = darkerv , darkerf , lighterf = coming soon*/ 
+
+.theme-light,
+.theme-dark {
+    --background-primary:         #353b58;
+    --background-primary-alt:     #121520;
+    --background-secondary:       #222c47fd;
+    --background-secondary-alt:   #461515;
+    --text-normal:                #fffffff6;
+    --text-faint:                 #f3f3f3;
+    --text-title-h1:              #050303;
+    --text-title-h2:              #D1D5DB;
+    --text-title-h3:              #46597e;
+    --text-title-h4:              #ffffff;
+    --text-title-h5:              #D1D5DB;
+    --text-title-h6:              #D1D5DB;
+    --text-highlight-bg:          #e2df3d6e;
+    --text-link:                  #D1D5DB;
+    --text-a-hover:               #D1D5DB;
+    --inline-code:                #fd2600;
+    --code-block:                 #11b83a;
+    --text-a:                     #ffffff;
+    --interactive-accent:         #ffffff;
+    --text-accent:                #78ff8a;
+    --text-accent-hover:          #ffffff;
+    --text-on-accent:             #49fa49;
+    --interactive-accent-rgb:     #ffffff;
+    --interactive-accent-hover:   #29fbff;
+    --vim-cursor:                 #D1D5DB;
+    --pre-code:                   #121520;
+    --interactive-before:         #0a0d1a;
+    --background-modifier-border: #e4cf72;
+    --text-selection:             #740e0e;
+    --text-faint:                 #ffffff;
+}
+
+
+.cm-s-obsidian span.cm-inline-code:not(.cm-formatting):not(.cm-hmd-indented-code):not(.obsidian-search-match-highlight),
+.HyperMD-codeblock-bg,
+.theme-dark pre[class*="language-"],
+.markdown-preview-view code {
+    background-color: var(--pre-code) !important;
+    color: var(--code-block) !important;
+}
+
+.cm-s-obsidian pre.HyperMD-codeblock {
+    color: var(--code-block);
+}
+
+.cm-s-obsidian span.cm-inline-code {
+    color: var(--inline-code);
+}
+
+.checkbox-container.is-enabled {
+    background-color: var(--text-selection);
+}
+
+.checkbox-container {
+    background-color: var(--background-primary);
+}
+
+.dropdown {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyOTIuNCIgaGVpZ2h0PSIyOTIuNCI+PHBhdGggZmlsbD0iIzAwQUFBRCIgZD0iTTI4NyA2OS40YTE3LjYgMTcuNiAwIDAgMC0xMy01LjRIMTguNGMtNSAwLTkuMyAxLjgtMTIuOSA1LjRBMTcuNiAxNy42IDAgMCAwIDAgODIuMmMwIDUgMS44IDkuMyA1LjQgMTIuOWwxMjggMTI3LjljMy42IDMuNiA3LjggNS40IDEyLjggNS40czkuMi0xLjggMTIuOC01LjRMMjg3IDk1YzMuNS0zLjUgNS40LTcuOCA1LjQtMTIuOCAwLTUtMS45LTkuMi01LjUtMTIuOHoiLz48L3N2Zz4=);
+}
